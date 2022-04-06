@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="41[T,2Ggk{Dyys`mC|QN">ship</variable></variables><block type="pxt-on-start" id="YA_7*amn8rN39V-y^5%d" x="0" y="0"/><block type="device_forever" id="gHAy,/DS,wsNxi6%.:b%" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="AgKa;Ip%fbMx/Dj`N%*{"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="?C7+4EdwzBw~+=[hv^*v"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="Bd0p^_w%_y/c|}/g/99`"/></value><value name="B"><shadow type="math_number" id=":m7J?a?`pLb+9yzxKJoi"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="SoundExpression_playUntilDone" id="f,;Bdh~VtsNKll+TAE*e"><field name="this">soundExpression.happy</field><next><block type="device_show_leds" id="uaSrmm7.ov[{$$,|6#Ea"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement><next><block type="controls_if" id="LZ^lp=fvs9o;b]JG7oK}"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="wX/]dK16OydkTc!iS)YR"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="j:L$)hLr4|N[|VMh7El/"/></value><value name="B"><shadow type="math_number" id="6bF8q!T=?*Un#4w+*?`V"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_start_melody" id="=lt0cX*C^-^4Uh0i9*ue"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="s[g;/{MQ[/$Svn;Ps%vv"><field name="melody">Melodies.Wawawawaa</field></block></value><next><block type="device_show_leds" id="X_~xgPI)!}q]L1R!kMZU"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement></block></next></block></statement></block></xml>
